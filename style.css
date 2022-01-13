@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  padding: 7px;
+  margin: 7px;
 }
 
+.calculater{
+  display: inline-block;
+  border: 2px solid rgb(172, 172, 172);
+}
