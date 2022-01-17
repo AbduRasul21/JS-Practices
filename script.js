@@ -152,14 +152,35 @@
 
 // console.log(x.pop());
 
-// ----------------------------------------------------------------#13
+// ----------------------------------------------------------------#21
 
-var x = "ndndnd";
+// var x = "";
 
-if (x.startsWith("Py")) {
-  
-} else {
-  return (x += "Py");
-}
+// if (x.startsWith("Py")) {
 
-console.log(x);
+// } else {
+//   x = 'Py'+x;
+// }
+
+// x.startsWith("Py") ? (x = x) : (x = "Py" + x);
+
+// console.log(x);
+
+// ----------------------------------------------------------------#21
+
+// var str = "Python";
+// var position = 1;
+// var part1;
+// var part2;
+// var newName;
+
+// function pushItem(str, position) {
+//   part1 = str.substring(0, position);
+//   part2 = str.substring(position + 1, str.length);
+//   return (part1 + part2);
+// }
+
+// console.log(pushItem(str, position));
+
+
+// ----------------------------------------------------------------#21
