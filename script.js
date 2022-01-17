@@ -166,7 +166,7 @@
 
 // console.log(x);
 
-// ----------------------------------------------------------------#21
+// ----------------------------------------------------------------#22
 
 // var str = "Python";
 // var position = 1;
@@ -182,5 +182,20 @@
 
 // console.log(pushItem(str, position));
 
+// ----------------------------------------------------------------#23
 
-// ----------------------------------------------------------------#21
+var str = "8";
+
+function replaceChar(str) {
+  if (str.length <= 1) {
+    return str;
+  } else {
+    midChar = str.substring(1, str.length - 1);
+    return str.charAt(str.length - 1) + midChar + str.charAt(0);
+  }
+}
+
+console.log(replaceChar(str));
+
+// ----------------------------------------------------------------#24
+
