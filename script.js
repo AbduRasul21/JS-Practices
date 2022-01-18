@@ -184,18 +184,32 @@
 
 // ----------------------------------------------------------------#23
 
-var str = "8";
+// var str = "8";
 
-function replaceChar(str) {
-  if (str.length <= 1) {
-    return str;
-  } else {
-    midChar = str.substring(1, str.length - 1);
-    return str.charAt(str.length - 1) + midChar + str.charAt(0);
-  }
-}
+// function replaceChar(str) {
+//   if (str.length <= 1) {
+//     return str;
+//   } else {
+//     midChar = str.substring(1, str.length - 1);
+//     return str.charAt(str.length - 1) + midChar + str.charAt(0);
+//   }
+// }
 
-console.log(replaceChar(str));
+// console.log(replaceChar(str));
 
 // ----------------------------------------------------------------#24
+
+// var str = "8";
+
+// function replaceChar(str) {
+//   if (str.length <= 1) {
+//     return str;
+//   } else {
+//         return str.charAt(0) + str + str.charAt(0);
+//   }
+// }
+
+// console.log(replaceChar("89"));
+
+// ----------------------------------------------------------------#25
 
