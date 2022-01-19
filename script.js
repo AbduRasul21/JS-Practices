@@ -213,3 +213,53 @@
 
 // ----------------------------------------------------------------#25
 
+// function multiplyBy(x) {
+//   if (x % 3 == 0 || x % 7 == 0) {
+//     return "3ga hamda 7ga bo`linadi";
+//   } else {
+//     return "3ga ham 7ga bo`linmaydi";
+//   }
+// }
+
+// console.log(multiplyBy(7));
+// console.log(multiplyBy(18));
+
+// ----------------------------------------------------------------#27
+
+// function startJava(str) {
+//   if (str.startsWith('Java')) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(startJava("Java"));
+
+// console.log(startJava("Ja"));
+
+// ----------------------------------------------------------------#28
+
+// function integerRange(x, y) {
+//   if ((50 < x && x <= 99) || (50 < y && y <= 99)) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(integerRange(55, 9));
+
+// ----------------------------------------------------------------#30
+
+function checkStr(str) {
+  if (str.substr(4) == "Script") {
+    return str.substring(0, 4);
+  } else {
+    return str;
+  }
+}
+
+console.log(checkStr("EcmaScript"));
+
+// ----------------------------------------------------------------#31
