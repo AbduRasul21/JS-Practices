@@ -334,3 +334,32 @@
 // console.log(lastDigit(501, 501, 501));
 
 // ----------------------------------------------------------------#37
+
+// function threeChar(str) {
+//   if (str.length < 3) {
+//     return str.toUpperCase();
+//   } else {
+//     var firstThreeChar = str.substring(0, 3).toLowerCase();
+//     var lastChar = str.substring(3, str.length);
+//     return firstThreeChar + lastChar;
+//   }
+// }
+
+// console.log(threeChar("DDDDD"));
+
+// ----------------------------------------------------------------#40
+
+// function check_8(x, y) {
+//   if (x == 8 || y == 8) {
+//     return true;
+//   }
+//   if (x + y == 8 || Math.abs(x - y) == 8) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(check_8(10, 1));
+
+// ----------------------------------------------------------------#41
