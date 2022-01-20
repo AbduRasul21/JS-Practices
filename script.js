@@ -252,14 +252,85 @@
 
 // ----------------------------------------------------------------#30
 
-function checkStr(str) {
-  if (str.substr(4) == "Script") {
-    return str.substring(0, 4);
-  } else {
-    return str;
-  }
-}
+// function checkStr(str) {
+//   if (str.substr(4) == "Script") {
+//     return str.substring(0, 4);
+//   } else {
+//     return str;
+//   }
+// }
 
-console.log(checkStr("EcmaScript"));
+// console.log(checkStr("EcmaScript"));
 
 // ----------------------------------------------------------------#31
+
+// function largestInteger(a, b, c) {
+//   if (a > b) {
+//     if (a > c) {
+//       return "the largest integer is " + a;
+//     } else {
+//       return "the largest integer is " + c;
+//     }
+//   } else {
+//     if (b > c) {
+//       return "the largest integer is " + b;
+//     } else {
+//       return "the largest integer is " + c;
+//     }
+//   }
+// }
+
+// console.log(largestInteger(5, 8, 9));
+
+// console.log(largestInteger(10, 8, 9));
+
+// console.log(largestInteger(10, -11, 9));
+
+// ----------------------------------------------------------------#32
+
+// function nearestToHundred(a, b) {
+//   var differ_1 = Math.abs(100 - a);
+//   var differ_2 = Math.abs(100 - b);
+
+//   if (differ_1 > differ_2) {
+//     return b;
+//   } else {
+//     return a;
+//   }
+// }
+
+// console.log(nearestToHundred(15, 20));
+
+// console.log(nearestToHundred(130, 120));
+
+// console.log(nearestToHundred(1, 0));
+
+// ----------------------------------------------------------------#35       --------------------------------------------------------
+
+// var str = "JavaScript";
+
+// function isSpecChar(strRef) {
+//   if (str.substring(2, 4) == strRef) {
+//     return "Yes";
+//   } else {
+//     return "No";
+//   }
+// }
+// console.log(isSpecChar("aSc"));
+// console.log(isSpecChar("va"));
+
+// console.log(str.substring(2, 4));
+
+// ----------------------------------------------------------------#36
+
+// function lastDigit(x, y, z) {
+//   if (x % 10 == y % 10 && x % 10 == z % 10 && z % 10 == y % 10) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(lastDigit(501, 501, 501));
+
+// ----------------------------------------------------------------#37
