@@ -363,3 +363,85 @@
 // console.log(check_8(10, 1));
 
 // ----------------------------------------------------------------#41
+
+// function equalTesting(x, y, z) {
+//   if (x == y && y == z) {
+//     return 30;
+//   } else if (x == y || y == z || x == z) {
+//     return 40;
+//   } else {
+//     return 20;
+//   }
+// }
+
+// console.log(equalTesting(5, 5, 5));
+// console.log(equalTesting(5, 4, 5));
+// console.log(equalTesting(5, 4, 23));
+
+// ----------------------------------------------------------------#42
+
+// function strictSoftMode(x, y, z) {
+//   if (z > y && y > x) {
+//     return "Strict Mode";
+//   } else if (z > y) {
+//     return "Soft Mode";
+//   } else {
+//     return "undefined";
+//   }
+// }
+
+// console.log(strictSoftMode(4, 5, 6));
+
+// console.log(strictSoftMode(5, 5, 6));
+
+// ----------------------------------------------------------------#43
+
+// function rightMostDigit(x, y, z) {
+//   if (x % 10 == y % 10 || x % 10 == z % 10 || y % 10 == z % 10) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(rightMostDigit(20, 20, 20));
+// console.log(rightMostDigit(20, 31, 20));
+// console.log(rightMostDigit(22, 31, 20));
+
+// ----------------------------------------------------------------#46
+
+// function multiplyBY(x, y) {
+//   if (!(x % 7 == 0 || x % 11 == 0) && (y % 7 == 0 || y % 11 == 0)) {
+//     return x % 7 == 0 || x % 11 == 0 || y % 7 == 0 || y % 11 == 0;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(multiplyBY(7, 11));
+
+// ----------------------------------------------------------------#48
+
+// function reverseWord(str) {
+//   return str.split("").reverse().join("");
+// }
+
+// console.log(reverseWord("Python"));
+
+// ----------------------------------------------------------------#50
+
+function capitalize(str) {
+  myArray = str.split(" ");
+
+  for (let i = 0; i < myArray.length; i++) {
+    myArray[i] = myArray[i][0].toUpperCase() + myArray[i].substr(1);
+  }
+
+  return myArray.join(" ");
+}
+
+console.log(
+  capitalize("assalom deganda ochiladi gul assalom deganda sayraydi bul bul")
+);
+
+// ----------------------------------------------------------------#51
