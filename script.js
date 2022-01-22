@@ -430,18 +430,32 @@
 
 // ----------------------------------------------------------------#50
 
-function capitalize(str) {
-  myArray = str.split(" ");
+// function capitalize(str) {
+//   myArray = str.split(" ");
 
-  for (let i = 0; i < myArray.length; i++) {
-    myArray[i] = myArray[i][0].toUpperCase() + myArray[i].substr(1);
-  }
+//   for (let i = 0; i < myArray.length; i++) {
+//     myArray[i] = myArray[i][0].toUpperCase() + myArray[i].substr(1);
+//   }
 
-  return myArray.join(" ");
-}
+//   return myArray.join(" ");
+// }
 
-console.log(
-  capitalize("assalom deganda ochiladi gul assalom deganda sayraydi bul bul")
-);
+// console.log(
+//   capitalize("assalom deganda ochiladi gul assalom deganda sayraydi bul bul")
+// );
 
 // ----------------------------------------------------------------#51
+
+function numberToTime(x) {
+  t = Math.trunc(x / 60);
+  m = x % 60;
+
+  return t + " hrs " + m + " min";
+}
+
+console.log(numberToTime(450));
+
+console.log(numberToTime(585));
+
+
+// ----------------------------------------------------------------#52
