@@ -490,6 +490,28 @@
 
 // countVowels("PythOni");
 
-// ----------------------------------------------------------------#54
+// ----------------------------------------------------------------#57
 
+// function strRepeat(str, n) {
+//   if (str.length <= 0) {
+//     return false;
+//   } else {
+//     return str.repeat(n);
+//   }
+// }
 
+// console.log(strRepeat('Python "wefwe"', 5));
+
+// ----------------------------------------------------------------#58
+
+// function lastChar(str) {
+//   if (str.length <= 3) {
+//     return false;
+//   } else {
+//     return str.slice(-3).repeat(4);
+//   }
+// }
+
+// console.log(lastChar("hon"));
+
+// ----------------------------------------------------------------#59
