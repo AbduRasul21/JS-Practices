@@ -526,7 +526,16 @@
 
 // console.log(divideHalf("Python55"));
 
+// ----------------------------------------------------------------#62
 
-// ----------------------------------------------------------------#61
+// function lastThreeToStart(str) {
+//   if (str.length >= 3) {
+//     return str.slice(-3) + str.slice(0, -3);
+//   } else {
+//     return false;
+//   }
+// }
 
+// console.log(lastThreeToStart("Pythonc"));
 
+// ----------------------------------------------------------------#63
