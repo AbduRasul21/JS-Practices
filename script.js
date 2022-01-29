@@ -539,3 +539,18 @@
 // console.log(lastThreeToStart("Pythonc"));
 
 // ----------------------------------------------------------------#63
+
+// function middleThree(str) {
+//   var midStr = Math.floor(str.length / 2);
+//   console.log(midStr);
+//   if (str.length >= 3 && str.length % 2 !== 0) {
+//     return str.substring(midStr - 1, midStr + 2);
+//   } else {
+//     return str;
+//   }
+// }
+
+// console.log(middleThree("dddddddd"));
+
+
+// ----------------------------------------------------------------#64
