@@ -552,5 +552,49 @@
 
 // console.log(middleThree("dddddddd"));
 
+// ----------------------------------------------------------------#67
 
-// ----------------------------------------------------------------#64
+// function removePChar(str) {
+//   if (
+//     str.toLowerCase().charAt(0) == "p" &&
+//     str.toLowerCase().charAt(str.length - 1) == "p"
+//   ) {
+//     return str.slice(1, -1);
+//   } else {
+//     return str;
+//   }
+// }
+
+// console.log(removePChar("Pythonr"));
+
+// ----------------------------------------------------------------#68
+
+// var str = "";
+// var n = 0;
+
+// function removeNChar(str, n) {
+//   if (str.length >= n) {
+//     // return str.slice(0 + n, str.length - 3)
+//     return str.slice(0, 0 + n) + str.slice(str.length - 3, str.length);
+//   } else {
+//     return str;
+//   }
+// }
+
+// console.log(removeNChar("Python88", 3));
+
+// ----------------------------------------------------------------#69
+
+// const arr = [1, 2];
+
+// function sumArr(arr) {
+//   for (var sum of arr) {
+//     sum += sum;
+//     console.log(sum);
+//       }
+//   return sum;
+// }
+
+// console.log(sumArr(arr));
+
+// ----------------------------------------------------------------#70
