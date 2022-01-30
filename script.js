@@ -585,16 +585,114 @@
 
 // ----------------------------------------------------------------#69
 
-// const arr = [1, 2];
-
+// const arr = [2, 2, 6];
+// var sum = 0;
 // function sumArr(arr) {
-//   for (var sum of arr) {
-//     sum += sum;
-//     console.log(sum);
-//       }
+//   for (var x of arr) {
+//     sum = x + sum;
+//   }
 //   return sum;
 // }
 
 // console.log(sumArr(arr));
 
 // ----------------------------------------------------------------#70
+
+// const arr = [2, 2, 6];
+
+// function rotateElementLeft(arr) {
+//   for (var x of arr) {
+//     sum = x + sum;
+//   }
+//   return sum;
+// }
+
+// console.log(sumArr(arr));
+
+// ----------------------------------------------------------------#71
+
+// const arr = [8, 2, 5];
+// var arrLength = arr.length - 1;
+// const revArr = [];
+
+// function reverseArr(arr) {
+//   for (var x of arr) {
+//     revArr[arrLength - arr.indexOf(x)] = x;
+//   }
+//   return revArr;
+// }
+
+// console.log(reverseArr(arr));
+
+// ----------------------------------------------------------------#72
+
+// const arr = [8, 2, 5];
+// // console.log(arr.length);
+// function isOneFirstOrLast(arr) {
+//   if (arr.length >= 3) {
+//     return arr[0] == arr[arr.length - 1];
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(isOneFirstOrLast(arr));
+
+// ----------------------------------------------------------------#73 ------------------------------
+
+// const arr = [8, 2, 2, 3, 4];
+// var arrLength = arr.length - 1;
+// const revArr = [];
+
+// function reverseArr(arr) {
+//   for (var x of arr) {
+//     revArr[arrLength - arr.indexOf(x)] = x;
+//     console.log(x);
+//   }
+//   return revArr;
+// }
+
+// console.log(reverseArr(arr));
+
+// ----------------------------------------------------------------#74
+
+// const arr = [8, 2, 2, 3, 12];
+
+// function largerItem(arr) {
+//   if (arr[0] > arr[arr.length - 1]) {
+//     arr.fill(arr[0]);
+//   } else {
+//     arr.fill(arr[arr.length - 1]);
+//   }
+//   return arr;
+// }
+
+// console.log(largerItem(arr));
+
+// ----------------------------------------------------------------#77
+
+// const arr = [5, 0, 1];
+// function containsOneThree(arr) {
+//   if (arr.indexOf(1) != -1 || arr.indexOf(3) != -1) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(containsOneThree(arr));
+
+// ----------------------------------------------------------------#78
+
+// const arr = [5, 0, 5];
+// function containsOneThree(arr) {
+//   if (!arr.includes(1) && !arr.includes(3)) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(containsOneThree(arr));
+
+// ----------------------------------------------------------------#81
