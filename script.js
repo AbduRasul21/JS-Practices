@@ -704,21 +704,28 @@
 
 // console.log(addTwoDigits(25));
 
-
 // ----------------------------------------------------------------#82 ----------------------------------------------
-
 
 // ----------------------------------------------------------------#83
 
-const myArr=["olcha", "uzum", "gilos"]
+// const myArr = ["12345", "87654325551", "1234567"];
 
-function longestArray(myArr) {
-    console.log(myArr.map());
-}
+// var maxItem = "";
 
-longestArray();
+// function longestArray(myArr) {
+//   for (const x of myArr) {
+//     if (maxItem.length <= x.length) {
+//       maxItem = x;
+//     }
+//   }
+//   console.log(maxItem);
+// }
+
+// longestArray(myArr);
 
 // ----------------------------------------------------------------#84
 
+var str = "hello";
 
-
+console.log(str.charCodeAt(0));
+console.log(String.fromCharCode(104));
