@@ -725,7 +725,23 @@
 
 // ----------------------------------------------------------------#84
 
-var str = "hello";
+// var str = "hellz";
+// var str2 = "";
+// // console.log(str.charCodeAt(0));
+// // console.log(String.fromCharCode(104));
 
-console.log(str.charCodeAt(0));
-console.log(String.fromCharCode(104));
+// function toNextChar(str) {
+//   for (const key in str) {
+//     if (str[key] != "z") {
+//       text = String.fromCharCode(str.charCodeAt(key) + 1);
+//       str2 = str2 + text;
+//     } else {
+//       str2 = str2 + "a";
+//     }
+//   }
+//   console.log(str2);
+// }
+
+// toNextChar(str);
+
+// ----------------------------------------------------------------#85
