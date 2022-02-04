@@ -708,13 +708,13 @@
 
 // ----------------------------------------------------------------#83
 
-// const myArr = ["12345", "87654325551", "1234567"];
+// const myArr = ["Obidjon", "Faxriddin", "Abdurasul"];
 
 // var maxItem = "";
 
 // function longestArray(myArr) {
 //   for (const x of myArr) {
-//     if (maxItem.length <= x.length) {
+//     if (maxItem.length < x.length) {
 //       maxItem = x;
 //     }
 //   }
@@ -725,10 +725,10 @@
 
 // ----------------------------------------------------------------#84
 
-// var str = "hellz";
+// var str = "Abcde";
 // var str2 = "";
-// // console.log(str.charCodeAt(0));
-// // console.log(String.fromCharCode(104));
+// console.log(str.charCodeAt(0));
+// console.log(String.fromCharCode(104));
 
 // function toNextChar(str) {
 //   for (const key in str) {
@@ -745,3 +745,32 @@
 // toNextChar(str);
 
 // ----------------------------------------------------------------#85
+
+// const myArr = [2, 2, 5, 6, 4];
+// const myResult = [0, 0];
+
+// function positiveInteger(myArr) {
+//   for (let i = 0; i < myArr.length; i++) {
+//     if (i % 2 == 0) {
+//       myResult[0] += myArr[i];
+//     } else {
+//       myResult[1] += myArr[i];
+//     }
+//   }
+//   return myResult;
+// }
+// console.log(positiveInteger(myArr));
+
+// ----------------------------------------------------------------#87 -----------------------------------------
+
+const Arr_1 = [1, 5, 3];
+const Arr_2 = [2, 2, 3];
+
+function toCheckArray(Arr_1, Arr_2) {
+  for (let i = 0; i < Arr_1.length; i++) {
+    console.log(Arr_1[i] === Arr_2[i]);
+  }
+}
+
+toCheckArray(Arr_1, Arr_2);
+
