@@ -763,14 +763,22 @@
 
 // ----------------------------------------------------------------#87 -----------------------------------------
 
-const Arr_1 = [1, 5, 3];
-const Arr_2 = [2, 2, 3];
+const Arr_1 = [5, 5, 3];
+const Arr_2 = [2, 5, 3];
+var result = true;
 
 function toCheckArray(Arr_1, Arr_2) {
   for (let i = 0; i < Arr_1.length; i++) {
-    console.log(Arr_1[i] === Arr_2[i]);
+    if (Arr_1[i] == Arr_2[i]) {
+      result = true;
+    } else {
+      result = false;
+      break;
+    }
   }
+  return result;
 }
 
-toCheckArray(Arr_1, Arr_2);
+console.log(toCheckArray(Arr_1, Arr_2));
 
+// ----------------------------------------------------------------#89
