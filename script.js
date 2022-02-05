@@ -761,24 +761,47 @@
 // }
 // console.log(positiveInteger(myArr));
 
-// ----------------------------------------------------------------#87 -----------------------------------------
+// ----------------------------------------------------------------#87
 
-const Arr_1 = [5, 5, 3];
-const Arr_2 = [2, 5, 3];
-var result = true;
+// const Arr_1 = [2, 5, 3];
+// const Arr_2 = [2, 5, 3];
+// var result = true;
 
-function toCheckArray(Arr_1, Arr_2) {
-  for (let i = 0; i < Arr_1.length; i++) {
-    if (Arr_1[i] == Arr_2[i]) {
-      result = true;
-    } else {
-      result = false;
-      break;
-    }
-  }
-  return result;
-}
+// function toCheckArray(Arr_1, Arr_2) {
+//   for (let i = 0; i < Arr_1.length; i++) {
+//     if (Arr_1[i] == Arr_2[i]) {
+//       result = true;
+//     } else {
+//       result = false;
+//       break;
+//     }
+//   }
+//   return result;
+// }
 
-console.log(toCheckArray(Arr_1, Arr_2));
+// console.log(toCheckArray(Arr_1, Arr_2));
 
 // ----------------------------------------------------------------#89
+
+// var x = 5;
+// var y = 2;
+// var z = 7;
+
+// console.log("x$y=z" +" "+ x  + y  + z);
+// function posibbleExpes(x, y, z) {
+//   if (x * y == z) {
+//     return "x*y=z";
+//   } else if (x / y == z) {
+//     return "x/y=z";
+//   } else if (x - y == z) {
+//     return "x-y=z";
+//   } else if (x + y == z) {
+//     return "x+y=z";
+//   }
+// }
+
+// console.log(posibbleExpes(x, y, z));
+
+
+// ----------------------------------------------------------------#90
+
