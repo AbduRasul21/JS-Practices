@@ -802,29 +802,98 @@
 
 // console.log(posibbleExpes(x, y, z));
 
+// ----------------------------------------------------------------#90
+// var maxIndex = 0;
 
-// ----------------------------------------------------------------#90 -------------------------------------------
+// function kGreatestNum(arr, k) {
+//   for (let i = 0; i < k; i++) {
+//     maxIndex = i;
+//     arr[maxIndex] = arr[i];
+//     tmp = arr[i];
 
+//     for (let j = i + 1; j < arr.length; j++) {
+//       if (arr[maxIndex] < arr[j]) {
+//         maxIndex = j;
+//       }
+//     }
 
-function Kth_greatest_in_array(arr, k) {
-  for (var i = 0; i < k; i++) {
-    var max_index = i,
-      tmp = arr[i];
+//     arr[i] = arr[maxIndex];
+//     arr[maxIndex] = tmp;
+//   }
+//   console.log(arr[k - 1]);
+// }
 
-    for (var j = i + 1; j < arr.length; j++) {
-      if (arr[j] > arr[max_index]) {
-        max_index = j;
-        console.log(max_index);
-      }
+// kGreatestNum([1, 10, 20], 3);
+
+// ----------------------------------------------------------------#91        ???????
+// var result = 0;
+// const arr = [1, 5, 6, 4, 3];
+// var sumArr = 0;
+// function sumKInteger(arr, k) {
+//   for (let j = 0; j < arr.length; j++) {
+//     sumArr = arr[j];
+//     for (let i = j + 1; i < k + j; i++) {
+//       sumArr += arr[i];
+//     }
+//     if (result < sumArr) {
+//       result = sumArr;
+//     }
+//   }
+//   console.log(result);
+// }
+
+// sumKInteger(arr, 1);
+
+// ------w3school version----
+
+// function array_max_consecutive_sum(nums, k) {
+//   let result = 0;
+//   let temp_sum = 0;
+//   for (var i = 0; i < k - 1; i++) {
+//     temp_sum += nums[i];
+
+//   }
+
+//   for (var i = k - 1; i < nums.length; i++) {
+//     temp_sum += nums[i];
+
+//     if (temp_sum > result) {
+//       result = temp_sum;
+//     }
+//     temp_sum -= nums[i - k + 1];
+//   }
+//   return result;
+// }
+
+// console.log(array_max_consecutive_sum([1, 2, 3, 14, 5], 2));
+
+// ----------------------------------------------------------------#92
+
+// function maxDiffer(arr) {
+//   let max = -1;
+//   let temp;
+//   for (let i = 0; i < arr.length - 1; i++) {
+//     temp = arr[i] - arr[i + 1];
+//     max = Math.min(temp, max);
+//   }
+//   return max;
+// }
+// console.log(maxDiffer([1, 10, 5]));
+
+// ----------------------------------------------------------------#93
+
+var max = 0;
+var temp;
+function maxDiffer(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr.length; j++) {
+      temp = Math.abs(arr[i] - arr[j]);
+      max = Math.max(max, temp);
     }
-
-    arr[i] = arr[max_index];
-    arr[max_index] = tmp;
   }
-
-  return arr[k-1];
+  return max;
 }
 
-console.log(Kth_greatest_in_array([1, 2, 6, 7, 5], 1));
-// console.log(Kth_greatest_in_array([-10, -25, -47, -36, 0], 1));
+console.log(maxDiffer([1, 2, 3, 8, 15]));
 
+// ----------------------------------------------------------------#94
