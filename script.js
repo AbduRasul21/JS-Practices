@@ -882,18 +882,83 @@
 
 // ----------------------------------------------------------------#93
 
-var max = 0;
-var temp;
-function maxDiffer(arr) {
-  for (let i = 0; i < arr.length; i++) {
-    for (let j = 0; j < arr.length; j++) {
-      temp = Math.abs(arr[i] - arr[j]);
-      max = Math.max(max, temp);
+// var max = 0;
+// var temp;
+// function maxDiffer(arr) {
+//   for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr.length; j++) {
+//       temp = Math.abs(arr[i] - arr[j]);
+//       max = Math.max(max, temp);
+//     }
+//   }
+//   return max;
+// }
+
+// console.log(maxDiffer([1, 2, 3, 8, 15]));
+
+// ----------------------------------------------------------------#94 ???????
+
+// const arr = [2, 5, 2, 8, 2, 6,2];
+// var mostN;
+// var k = 1;
+// var maxK = 0;
+// function mostAppear(arr) {
+//   for (let i = 0; i < arr.length-1; i++) {
+//     for (let j = 0; i !== j && j < arr.length-1; j++) {
+//       if (arr[i] == arr[j]) {
+//         k++;
+//       }
+//     }
+//     if (maxK < k) {
+//       maxK = k;
+//       mostN = arr[i];
+//     }
+//   }
+//   return mostN +' '+maxK;
+// }
+
+// console.log(mostAppear(arr));
+
+// ----------------------------------------------------------------#96
+
+// array = [1, 5, 4, 7, 8];
+// var sum = 0;
+// function differArr(array) {
+//   for (let i = 0; i < array.length - 1; i++) {
+//     sum += Math.abs(array[i] - array[i + 1]);
+
+//     console.log(sum);
+//   }
+// }
+
+// differArr(array);
+
+// ----------------------------------------------------------------#97 --------------------------------------------------
+
+// ----------------------------------------------------------------#98
+
+var x = 0;
+var y = 0;
+const pattern = /[A-Z]/;
+function changeCase(str) {
+  for (let i = 0; i < str.length; i++) {
+    if (pattern.test(str[i])) {
+      x++;
+    } else {
+      y++;
     }
   }
-  return max;
+
+  if (x > y) {
+    return str.toUpperCase();
+  } else {
+    return str.toLowerCase();
+  }
 }
 
-console.log(maxDiffer([1, 2, 3, 8, 15]));
+console.log(changeCase("PHp"));
+console.log(changeCase("Php"));
 
-// ----------------------------------------------------------------#94
+// ----------------------------------------------------------------#99 ------------------------------------------
+
+
