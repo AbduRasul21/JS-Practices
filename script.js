@@ -937,28 +937,45 @@
 
 // ----------------------------------------------------------------#98
 
-var x = 0;
-var y = 0;
-const pattern = /[A-Z]/;
-function changeCase(str) {
-  for (let i = 0; i < str.length; i++) {
-    if (pattern.test(str[i])) {
-      x++;
-    } else {
-      y++;
-    }
-  }
+// var x = 0;
+// var y = 0;
+// const pattern = /[A-Z]/;
+// function changeCase(str) {
+//   for (let i = 0; i < str.length; i++) {
+//     if (pattern.test(str[i])) {
+//       x++;
+//     } else {
+//       y++;
+//     }
+//   }
 
-  if (x > y) {
-    return str.toUpperCase();
-  } else {
-    return str.toLowerCase();
-  }
-}
+//   if (x > y) {
+//     return str.toUpperCase();
+//   } else {
+//     return str.toLowerCase();
+//   }
+// }
 
-console.log(changeCase("PHp"));
-console.log(changeCase("Php"));
+// console.log(changeCase("PHp"));
+// console.log(changeCase("Php"));
 
 // ----------------------------------------------------------------#99 ------------------------------------------
 
+// ----------------------------------------------------------------#100
 
+const array1 = [1, 2, 3];
+
+const array2 = [5, 2, 8];
+
+
+function isOccur(array1, array2) {
+  for (let i = 0; i < array1.length; i++) {
+    if (array1.indexOf(array2[i]) !== -1) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
+
+console.log(isOccur(array1, array2));
