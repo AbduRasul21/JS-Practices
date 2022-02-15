@@ -963,19 +963,20 @@
 
 // ----------------------------------------------------------------#100
 
-const array1 = [1, 2, 3];
+const array1 = [1, 7, 2];
 
-const array2 = [5, 2, 8];
-
+const array2 = [8, 7, 8];
 
 function isOccur(array1, array2) {
-  for (let i = 0; i < array1.length; i++) {
-    if (array1.indexOf(array2[i]) !== -1) {
+  for (let i = 0; i < array2.length; i++) {
+    if (array1.includes(array2[i])) {
+      console.log(array2[i]);
+
       return true;
-    } else {
-      return false;
     }
   }
+  console.log(array2[i]);
+  return false;
 }
 
 console.log(isOccur(array1, array2));
