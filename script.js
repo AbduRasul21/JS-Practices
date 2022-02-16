@@ -963,20 +963,33 @@
 
 // ----------------------------------------------------------------#100
 
-const array1 = [1, 7, 2];
+// const array1 = [1, 7, 2];
 
-const array2 = [8, 7, 8];
+// const array2 = [7, 5, 8];
 
-function isOccur(array1, array2) {
-  for (let i = 0; i < array2.length; i++) {
-    if (array1.includes(array2[i])) {
-      console.log(array2[i]);
+// function isOccur(array1, array2) {
+//   for (var i = 0; i < array2.length; i++) {
+//     if (array1.includes(array2[i])) {
+//       return true;
+//     }
+//   }
 
-      return true;
-    }
+//   return false;
+// }
+
+// console.log(isOccur(array1, array2));
+
+// ----------------------------------------------------------------#101 --------------------------------------------
+
+// ----------------------------------------------------------------#103
+
+var num = 1253333;
+const numDigit = [];
+numDigit.push(num % 10);
+console.log(numDigit);
+
+function digit_delete(num) {
+  while (num) {
+    console.log("hello");
   }
-  console.log(array2[i]);
-  return false;
 }
-
-console.log(isOccur(array1, array2));
