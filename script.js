@@ -983,13 +983,29 @@
 
 // ----------------------------------------------------------------#103
 
-var num = 1253333;
-const numDigit = [];
-numDigit.push(num % 10);
-console.log(numDigit);
 
-function digit_delete(num) {
-  while (num) {
-    console.log("hello");
-  }
-}
+
+// function digit_delete(num) {
+//   let result = 0;
+//   const numDigit = [];
+//   while (num) {
+//     numDigit.push(num % 10);
+//     num = Math.floor(num / 10);
+//   }
+  
+//   for (let i = 0; i < numDigit.length; i++) {
+//     let n = 0;
+//     for (let j = numDigit.length - 1; j >= 0; j--) {
+//       if (j !== i) {
+//         n = n * 10 + numDigit[j];
+       
+//       }
+//     }
+//     result = Math.max(n, result);
+   
+//   }
+//    return result;
+// }
+
+// console.log(digit_delete(125));
+
