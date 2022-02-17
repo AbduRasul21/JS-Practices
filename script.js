@@ -983,8 +983,6 @@
 
 // ----------------------------------------------------------------#103
 
-
-
 // function digit_delete(num) {
 //   let result = 0;
 //   const numDigit = [];
@@ -992,20 +990,52 @@
 //     numDigit.push(num % 10);
 //     num = Math.floor(num / 10);
 //   }
-  
+
 //   for (let i = 0; i < numDigit.length; i++) {
 //     let n = 0;
 //     for (let j = numDigit.length - 1; j >= 0; j--) {
 //       if (j !== i) {
 //         n = n * 10 + numDigit[j];
-       
+
 //       }
 //     }
 //     result = Math.max(n, result);
-   
+
 //   }
 //    return result;
 // }
 
-// console.log(digit_delete(125));
+// console.log(digit_delete(4055));
+
+// ----------------------------------------------------------------#105
+
+// const numArray = [];
+
+// function digitToOne(num) {
+//   var digitSum = function (num) {
+
+//     let sum = 0;
+//     while (num) {
+//       numArray.push(num % 10);
+//       num = Math.floor(num / 10);
+//     }
+
+//     for (let i = 0; i < numArray.length; i++) {
+//       sum += numArray[i];
+//     }
+//     console.log(sum);
+//     return sum;
+//   };
+//   var result = 0;
+
+//   while (num >= 10) {
+//     result += 1;
+//     num = digitSum(num);
+//   }
+//   return result;
+// }
+
+// console.log(digitToOne(123));
+
+// ----------------------------------------------------------------#106
 
